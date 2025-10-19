@@ -1,10 +1,6 @@
 """
-Professional Figure Generation for ILP Assignment 4
-Creates publication-ready figures for academic report
-
-Author: Assistant
-Date: 2025
-Purpose: Generate professional visualizations for Assignment 4
+Figure Generation for ILP Assignment 4
+Creates figures for analysis report
 """
 
 import matplotlib.pyplot as plt
@@ -13,7 +9,7 @@ import pandas as pd
 import numpy as np
 import os
 
-# Set style for professional figures
+# Set style
 plt.style.use('seaborn-v0_8')
 sns.set_palette("husl")
 
@@ -180,7 +176,7 @@ def create_figure_3_superscalar_scaling():
 def create_figure_4_performance_heatmap():
     """Create Figure 4: Performance Heatmap Matrix"""
     
-    # Create comprehensive performance matrix
+    # Create performance matrix
     configs = ['Simple\nPipeline', 'Branch\nPrediction', 'Superscalar\n(2-way)', 'Superscalar\n(4-way)', 'Superscalar\n(8-way)']
     workloads = ['Simple\nLoop', 'Branch\nIntensive', 'Parallel\nWorkload']
     
@@ -298,7 +294,7 @@ def create_figure_5_experimental_workflow():
                               facecolor=colors['output'], edgecolor='black', linewidth=2)
     ax.add_patch(output_box)
     ax.text(4.5, 4.7, 'Research Outputs', ha='center', va='center', fontweight='bold', fontsize=11)
-    ax.text(4.5, 4.3, '• 5 Professional Figures (PNG/PDF)', ha='center', va='center', fontsize=10)
+    ax.text(4.5, 4.3, '• 5 Figures (PNG/PDF)', ha='center', va='center', fontsize=10)
     ax.text(4.5, 4.0, '• Performance Summary CSV', ha='center', va='center', fontsize=10)
     ax.text(4.5, 3.7, '• APA 7 Formatted Report', ha='center', va='center', fontsize=10)
     
@@ -371,14 +367,14 @@ def save_all_figures():
     print("Figures are saved in both PNG (high-resolution) and PDF (vector) formats")
 
 if __name__ == "__main__":
-    print("=== Professional Figure Generation for ILP Assignment 4 ===")
-    print("Creating publication-ready figures...")
+    print("=== Figure Generation for ILP Assignment 4 ===")
+    print("Creating figures...")
     print()
     
     save_all_figures()
     
     print("\n=== Figure Generation Complete ===")
-    print("5 professional figures created")
+    print("5 figures created")
     print("Available in both PNG and PDF formats")
-    print("Ready for academic report inclusion")
-    print("All figures meet publication standards")
+    print("Ready for report inclusion")
+    print("All figures completed")

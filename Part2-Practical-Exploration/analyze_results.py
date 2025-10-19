@@ -241,7 +241,7 @@ class Gem5ResultsAnalyzer:
             print(f"  Commit Rate: {stats.get('commit_rate', 0):.4f}")
     
     def generate_summary_report(self):
-        """Generate comprehensive summary report"""
+        """Generate summary report"""
         print("\n" + "="*60)
         print("           GEM5 ILP EXPERIMENT SUMMARY REPORT")
         print("="*60)

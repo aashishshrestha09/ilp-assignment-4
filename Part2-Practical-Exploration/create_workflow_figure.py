@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Create enhanced Figure 5: Experimental Workflow and Implementation
-Professional diagram showing complete methodology from setup through analysis
+Create Figure 5: Experimental Workflow
+Diagram showing methodology from setup through analysis
 """
 
 import matplotlib.pyplot as plt
@@ -10,7 +10,7 @@ from matplotlib.patches import FancyBboxPatch, Rectangle, Circle, Arrow
 import numpy as np
 import os
 
-# Set up professional styling
+# Set up styling
 plt.style.use('default')
 plt.rcParams.update({
     'font.family': 'Arial',
@@ -23,7 +23,7 @@ plt.rcParams.update({
 })
 
 def create_experimental_workflow_figure():
-    """Create enhanced Figure 5: Complete Experimental Workflow"""
+    """Create Figure 5: Experimental Workflow"""
     fig, ax = plt.subplots(figsize=(16, 12))
     ax.set_xlim(0, 100)
     ax.set_ylim(0, 100)
@@ -211,7 +211,7 @@ def create_experimental_workflow_figure():
     results = [
         ('Performance\nMetrics', 'IPC Analysis\nScaling Factors\nEfficiency Ratios', 70, 61),
         ('Statistical\nValidation', 'Multiple Runs\nConfidence Intervals\nSignificance Tests', 83, 61),
-        ('Figure\nGeneration', 'Professional Charts\nComparative Analysis\nTrend Visualization', 70, 54),
+        ('Figure\nGeneration', 'Charts\nComparative Analysis\nTrend Visualization', 70, 54),
         ('Report\nIntegration', 'Academic Format\nAPA Citations\nReproducibility', 83, 54)
     ]
     
@@ -332,26 +332,26 @@ def create_experimental_workflow_figure():
                 dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()
     
-    print("Enhanced Figure 5: Experimental Workflow created successfully!")
+    print("Figure 5: Experimental Workflow created successfully!")
     print("Saved as: figures/figure_5_experimental_workflow.png")
-    print("Professional academic-quality workflow diagram ready!")
+    print("Workflow diagram ready!")
 
 def main():
-    """Generate enhanced experimental workflow figure"""
-    print("Creating Enhanced Experimental Workflow Figure...")
+    """Generate experimental workflow figure"""
+    print("Creating Experimental Workflow Figure...")
     print("=" * 60)
     
     create_experimental_workflow_figure()
     
-    print("\nFigure 5 Enhancement Complete!")
+    print("\nFigure 5 Complete!")
     print("Features:")
-    print("   • Comprehensive workflow visualization")
-    print("   • Professional academic styling") 
-    print("   • Detailed methodology documentation")
-    print("   • Clear phase separation and data flow")
+    print("   • Workflow visualization")
+    print("   • Academic styling") 
+    print("   • Methodology documentation")
+    print("   • Phase separation and data flow")
     print("   • Quality assurance framework")
     print("   • Tools and technologies overview")
-    print("\nReady for academic report integration!")
+    print("\nReady for report integration!")
 
 if __name__ == '__main__':
     main()

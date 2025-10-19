@@ -52,7 +52,7 @@ def create_system_with_branch_prediction(enable_bp=True, bp_type="LocalBP"):
             system.cpu.branchPred.choiceCtrBits = 2
             system.cpu.branchPred.globalCtrBits = 2
         elif bp_type == "TournamentBP":
-            # Tournament branch predictor (more sophisticated)
+            # Tournament branch predictor (advanced)
             system.cpu.branchPred = TournamentBP()
             system.cpu.branchPred.localPredictorSize = 2048
             system.cpu.branchPred.localCtrBits = 2
