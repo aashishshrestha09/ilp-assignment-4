@@ -1,0 +1,111 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# gem5 simulation outputs
+m5out/
+*.stats
+*.config
+*.out
+*.err
+
+# Compiled programs
+*.o
+*.exe
+workloads/simple_loop
+workloads/branch_intensive
+workloads/parallel_workload
+
+# Editor temporary files
+*~
+.swp
+.swo
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Archive files (keep only source)
+*.zip
+*.tar.gz
+*.rar
+
+# Large data files that can be regenerated
+performance_data.csv
+simulation_results.txt
+
+# PDF files (keep only PNG versions)
+*.pdf
+
+# Keep important files (negated patterns)
+!README.md
+!requirements.txt
+!*.py
+!*.md
+!figures/*.png
+!figures/*.csv
